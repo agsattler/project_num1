@@ -1,0 +1,44 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#include <iomanip> 
+using namespace std;
+int main()
+{
+    const int SIZE = 10;
+    int members_age[SIZE];
+    members_age[SIZE] = {13, 22, 17, 18, 19, 17, 16, 19, 24, 20};
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << "Member " << i + 1 << " is " << members_age[i] << " years old." << endl;
+    }
+     return 0;
+}
+     
